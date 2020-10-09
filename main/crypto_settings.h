@@ -2,16 +2,16 @@
 #define I2C_PORT                0
 
 // SDA pin
-#define SDA_GPIO                4
+#define SDA_GPIO                21
 
 // SCL pin
-#define SCL_GPIO                15
+#define SCL_GPIO                22
 
 // I2C baud rate
 #define BAUD_SPEED              400000
 
 // Cryptochip type
-#define ECCX08_TYPE             "608"
+#define ECCX08_TYPE             "508"
 
 // Cryptochip address
 #define ECCX08_ADDRESS          0XC0
